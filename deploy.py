@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Deployed on Heroku</h1>"
+    return '''<form action=# method= "POST">
+    Username:<input type=text name="username">
+    Password:<input type=password name="password">
+    </form>
+    '''
 
 
 
