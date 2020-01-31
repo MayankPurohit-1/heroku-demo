@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Deployed on Heroku"
+    return "<h1>Deployed on Heroku</h1>"
 
 
-app.run()
+
